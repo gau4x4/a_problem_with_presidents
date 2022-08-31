@@ -83,10 +83,10 @@ def printDataList(header, list,fileName):
     plt.savefig(fileName, dpi=400)
     plt.show()
 
-def statsListPrinting(mean, weighted_mean, median, mode, max, min, standard_deviation):
+def statsListPrinting(mean, weighted_avg, median, mode, max, min, standard_deviation):
     list = []
     list.append(['Mean', mean])
-    list.append(['Weighted Mean', weighted_mean])
+    list.append(['Weighted Avg', weighted_avg])
     list.append(['Median', median])
     list.append(['Mode', mode])
     list.append(['Max', max])
